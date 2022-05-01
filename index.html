@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlowerShop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="build/css/app.min.css">
+</head>
+<body>
+    
+    <!--? ---------------HEADER -------------------->
+
+    <header class="header bg-white pt-4 d-flex align-items-center justify-content-between">
+        <input type="checkbox" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        
+        <a href="#" class="logo fs-3 fw-bolder text-primary">Flower<span class="text-pink">.</span></a>
+        <nav class="header__navbar">
+            <a href="#home" class="p-2 ps-5 p-md-0 bg-light fs-5 me-0 me-md-5">Home</a>
+            <a href="#about" class="p-2 ps-5 p-md-0 bg-light fs-5 me-0 me-md-5">About</a>
+            <a href="#products" class="p-2 ps-5 p-md-0 bg-light fs-5 me-0 me-md-5">Products</a>
+            <a href="#review" class="p-2 ps-5 p-md-0 bg-light fs-5 me-0 me-md-5">Review</a>
+            <a href="#contact" class="p-2 ps-5 p-md-0 bg-light fs-5 ">Contact</a>
+        </nav>
+        <div class="header__icons">
+            <a href="#" class="fs-4 pe-4 fas fa-heart"></a>
+            <a href="#" class="fs-4 pe-4 fas fa-shopping-cart"></a>
+            <a href="#" class="fs-4 fas fa-user"></a>
+        </div>
+    </header>
+
+    <!--*---------------HEADER END-------------------->
+
+
+    <!--? ---------------home -------------------->
+
+    <section class="home" id="home">
+        <div class="home__content">
+            <h1 class="fw-bolder fs-1 text-primary">Fresh Flowers</h1>
+            <span class="text-pink fs-2">Natural & Beautiful Flowers</span>
+            <p class="text-tertiary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum libero, iste distinctio autem molestiae odio inventore dolorum omnis voluptate quisquam, quos facilis! Veniam odit, ipsa excepturi molestiae atque sint blanditiis.</p>
+            <a href="#" class="btn btn-primary">Shop Now</a>
+        </div>
+    </section>
+
+
+    <!--* ---------------home end -------------------->
+
+
+
+    <!--? ---------------about -------------------->
+
+    <section class="about" id="about">
+
+        <h2 class="bg-heading py-3 fs-2 fw-bold text-center "><span class="text-pink">About</span> Us</h2>
+
+        <div class="row mt-5 align-items-center">
+
+            <div class="about__video col-md-6 position-relative mb-5 mb-md-0">
+                <video class="about__video-source" src="build/img/about-vid.mp4" loop autoplay muted></video>
+                <h3 class="about__video-heading">Best Flower Sellers</h3>
+            </div>
+
+            <div class="col-md-6 about__texto">
+                <h3 class="fw-bold">Why Choose Us?</h3>
+                <p class="text-tertiary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, deleniti iure, voluptatibus unde iusto repellendus officia ullam veritatis eos vel nam natus esse atque ut veniam porro? Optio, rem sit.</p>
+                <p class="text-tertiary"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea laudantium tempora libero vero repellendus? Eos magnam, laudantium ex cum odit corporis atque maxime officia. Velit laborum eius voluptas labore! Error?</p>
+                <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!--* ---------------about end -------------------->
+
+
+
+    <!--? ---------------benefits -------------------->
+
+    <section class="benefits bg-light">
+
+        <div class="row">
+            <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+                <div class="benefits__box bg-white p-4 d-flex align-items-center">
+                    <picture>
+                        <source srcset=	"build/img/icon-1.avif" type="image/avif">
+                        <source srcset=	"build/img/icon-1.webp" type="image/webp">
+                        <img loading="lazy" src="build/img/icon-1.png" alt="icon image" class="img-fluid me-4">
+                    </picture>
+                    <div class="benefits__box--content">
+
+                        <h3 class="fs-6 fw-bold">Free Delivery</h3>
+                        <p class="fs-6 text-tertiary">On All Orders</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+                <div class="benefits__box bg-white p-4 d-flex align-items-center">
+                    <picture>
+                        <source srcset=	"build/img/icon-2.avif" type="image/avif">
+                        <source srcset=	"build/img/icon-2.webp" type="image/webp">
+                        <img loading="lazy" src="build/img/icon-2.png" alt="icon image" class="img-fluid me-4">
+                    </picture>
+                    <div class="benefits__box--content">
+                        <h3 class="fs-6 fw-bold">10 Days Returns</h3>
+                        <p class="fs-6 text-tertiary">Money Back Guarantee</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+                 
+                <div class="benefits__box bg-white p-4 d-flex align-items-center">
+                    <picture>
+                        <source srcset=	"build/img/icon-3.avif" type="image/avif">
+                        <source srcset=	"build/img/icon-3.webp" type="image/webp">
+                        <img loading="lazy" src="build/img/icon-3.png" alt="icon image" class="img-fluid me-4">
+                    </picture>
+                    <div class="benefits__box--content">
+                        <h3 class="fs-6 fw-bold">Offer & Gifts</h3>
+                        <p class="fs-6 text-tertiary">On All Orders</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-6 col-lg-3 ">                 
+
+                <div class="benefits__box bg-white p-4 d-flex align-items-center">
+                    <picture>
+                        <source srcset=	"build/img/icon-4.avif" type="image/avif">
+                        <source srcset=	"build/img/icon-4.webp" type="image/webp">
+                        <img loading="lazy" src="build/img/icon-4.png" alt="icon image" class="img-fluid me-4">
+                    </picture>
+                    <div class="benefits__box--content">
+                        <h3 class="fs-6 fw-bold">Secure Payments</h3>
+                        <p class="fs-6 text-tertiary">Protected by Paypal</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--* ---------------benefits end -------------------->
+
+
+
+    <!--? ---------------MAIN products -------------------->
+
+    <main class="products" id="products">
+
+        <h2 class="bg-heading py-3 mb-md-5 fs-2 fw-bold text-center text-pink "><span class="text-black">Latest</span> Products</h2>
+
+        <div class="row g-5">
+
+            <div class="col-md-6 col-lg-4 position-relative overflow-hidden">
+                <div class="card products__box">
+                    <span class="products__discount text-pink fs-5">-15%</span>
+                    <div class="card-body text-center">
+                        <div class="tarjeta">
+                            <picture>
+                                <source srcset=	"build/img/img-1.avif" type="image/avif">
+                                <source srcset=	"build/img/img-1.webp" type="image/webp">
+                                <img loading="lazy" src="build/img/img-1.jpg" alt="image product" class="img-fluid products__image">        
+                            </picture>
+            
+                            <div class="products__icons">
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="cart-btn">Add to Cart</a>
+                                <a href="#" class="fas fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3>Flower pot</h3>
+                            <p class="text-pink fs-3 fw-bold">$16.99 <del class="fs-6 text-tertiary">$19.99</del></p>
+                        </div>
+                    </div>
+                </div><!--?card end-->
+            </div>
+
+            <div class="col-md-6 col-lg-4 position-relative overflow-hidden">
+                <div class="card products__box">
+                    <span class="products__discount text-pink fs-5">-20%</span>
+                    <div class="card-body text-center">
+                        <div class="tarjeta">
+                            <picture>
+                                <source srcset=	"build/img/img-2.avif" type="image/avif">
+                                <source srcset=	"build/img/img-2.webp" type="image/webp">
+                                <img loading="lazy" src="build/img/img-2.jpg" alt="image product" class="img-fluid products__image">        
+                            </picture>
+                            <div class="products__icons">
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="cart-btn">Add to Cart</a>
+                                <a href="#" class="fas fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3>Flower pot</h3>
+                            <p class="text-pink fs-3 fw-bold">$14.99 <del class="fs-6 text-tertiary">$11.99</del></p>
+                        </div>
+                    </div>
+                </div><!--?card end-->
+            </div>
+
+            <div class="col-md-6 col-lg-4 position-relative overflow-hidden">
+                <div class="card products__box">
+                    <span class="products__discount text-pink fs-5">-10%</span>
+                    <div class="card-body text-center">
+                        <div class="tarjeta">
+                            <picture>
+                                <source srcset=	"build/img/img-3.avif" type="image/avif">
+                                <source srcset=	"build/img/img-3.webp" type="image/webp">
+                                <img loading="lazy" src="build/img/img-3.jpg" alt="image product" class="img-fluid products__image">        
+                            </picture>
+                            <div class="products__icons">
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="cart-btn">Add to Cart</a>
+                                <a href="#" class="fas fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3>Flower pot</h3>
+                            <p class="text-pink fs-3 fw-bold">$26.99 <del class="fs-6 text-tertiary">$29.99</del></p>
+                        </div>
+                    </div>
+                </div><!--?card end-->
+            </div>
+
+            <div class="col-md-6 col-lg-4 position-relative overflow-hidden">
+                <div class="card products__box">
+                    <span class="products__discount text-pink fs-5">-20%</span>
+                    <div class="card-body text-center">
+                        <div class="tarjeta">
+                            <picture>
+                                <source srcset=	"build/img/img-4.avif" type="image/avif">
+                                <source srcset=	"build/img/img-4.webp" type="image/webp">
+                                <img loading="lazy" src="build/img/img-4.jpg" alt="image product" class="img-fluid products__image">        
+                            </picture>
+                            <div class="products__icons">
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="cart-btn">Add to Cart</a>
+                                <a href="#" class="fas fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3>Flower pot</h3>
+                            <p class="text-pink fs-3 fw-bold">$12.99 <del class="fs-6 text-tertiary">$15.99</del></p>
+                        </div>
+                    </div>
+                </div><!--?card end-->
+            </div>
+
+            <div class="col-md-6 col-lg-4 position-relative overflow-hidden">
+                <div class="card products__box">
+                    <span class="products__discount text-pink fs-5">-20%</span>
+                    <div class="card-body text-center">
+                        <div class="tarjeta">
+                            <picture>
+                                <source srcset=	"build/img/img-5.avif" type="image/avif">
+                                <source srcset=	"build/img/img-5.webp" type="image/webp">
+                                <img loading="lazy" src="build/img/img-5.jpg" alt="image product" class="img-fluid products__image">        
+                            </picture>
+                            <div class="products__icons">
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="cart-btn">Add to Cart</a>
+                                <a href="#" class="fas fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3>Flower pot</h3>
+                            <p class="text-pink fs-3 fw-bold">$15.99 <del class="fs-6 text-tertiary">$19.99</del></p>
+                        </div>
+                    </div>
+                </div><!--?card end-->
+            </div>
+
+            <div class="col-md-6 col-lg-4 position-relative overflow-hidden">
+                <div class="card products__box">
+                    <span class="products__discount text-pink fs-5">-16%</span>
+                    <div class="card-body text-center">
+                        <div class="tarjeta">
+                            <picture>
+                                <source srcset=	"build/img/img-6.avif" type="image/avif">
+                                <source srcset=	"build/img/img-6.webp" type="image/webp">
+                                <img loading="lazy" src="build/img/img-6.jpg" alt="image product" class="img-fluid products__image">        
+                            </picture>
+                            <div class="products__icons">
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="cart-btn">Add to Cart</a>
+                                <a href="#" class="fas fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3>Flower pot</h3>
+                            <p class="text-pink fs-3 fw-bold">$20.99 <del class="fs-6 text-tertiary">$24.99</del></p>
+                        </div>
+                    </div>
+                </div><!--?card end-->
+            </div>
+
+            <div class="col-md-6 col-lg-4 position-relative overflow-hidden">
+                <div class="card products__box">
+                    <span class="products__discount text-pink fs-5">-20%</span>
+                    <div class="card-body text-center">
+                        <div class="tarjeta">
+                            <picture>
+                                <source srcset=	"build/img/img-7.avif" type="image/avif">
+                                <source srcset=	"build/img/img-7.webp" type="image/webp">
+                                <img loading="lazy" src="build/img/img-7.jpg" alt="image product" class="img-fluid products__image">        
+                            </picture>
+                            <div class="products__icons">
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="cart-btn">Add to Cart</a>
+                                <a href="#" class="fas fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3>Flower pot</h3>
+                            <p class="text-pink fs-3 fw-bold">$27.99 <del class="fs-6 text-tertiary">$34.99</del></p>
+                        </div>
+                    </div>
+                </div><!--?card end-->
+            </div>
+
+            <div class="col-md-6 col-lg-4 position-relative overflow-hidden">
+                <div class="card products__box">
+                    <span class="products__discount text-pink fs-5">-10%</span>
+                    <div class="card-body text-center">
+                        <div class="tarjeta">
+                            <picture>
+                                <source srcset=	"build/img/img-8.avif" type="image/avif">
+                                <source srcset=	"build/img/img-8.webp" type="image/webp">
+                                <img loading="lazy" src="build/img/img-8.jpg" alt="image product" class="img-fluid products__image">        
+                            </picture>
+                            <div class="products__icons">
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="cart-btn">Add to Cart</a>
+                                <a href="#" class="fas fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3>Flower pot</h3>
+                            <p class="text-pink fs-3 fw-bold">$26.99 <del class="fs-6 text-tertiary">$29.99</del></p>
+                        </div>
+                    </div>
+                </div><!--?card end-->
+            </div>
+
+            <div class="col-md-6 col-lg-4 position-relative overflow-hidden">
+                <div class="card products__box">
+                    <span class="products__discount text-pink fs-5">-20%</span>
+                    <div class="card-body text-center">
+                        <div class="tarjeta">
+                            <picture>
+                                <source srcset=	"build/img/img-9.avif" type="image/avif">
+                                <source srcset=	"build/img/img-9.webp" type="image/webp">
+                                <img loading="lazy" src="build/img/img-9.jpg" alt="image product" class="img-fluid products__image">        
+                            </picture>
+                            <div class="products__icons">
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="cart-btn">Add to Cart</a>
+                                <a href="#" class="fas fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3>Flower pot</h3>
+                            <p class="text-pink fs-3 fw-bold">$23.99 <del class="fs-6 text-tertiary">$29.99</del></p>
+                        </div>
+                    </div>
+                </div><!--?card end-->
+            </div>
+        </div>
+    </main>
+
+
+    <!--* ---------------MAIN products end -------------------->
+
+
+
+    <!--? ---------------review -------------------->
+
+    <section class="review" id="review">
+
+        <h2 class="bg-heading py-3 fs-2 fw-bold text-center text-pink"><span class="text-black">Customers</span> Review</h2>
+
+        <div class="row g-5 mt-3">
+            <div class="col-md-6 col-lg-4 review__tarjeta">
+                <div class="review__stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium reiciendis, praesentium quasi velit, in earum sequi iste illo dolorem ipsam ratione cum nisi eaque cumque pariatur aliquam? At, quo doloremque.</p>
+                <div class="review__user">
+                    <picture>
+                        <source srcset=	"build/img/pic-1.avif" type="image/avif">
+                        <source srcset=	"build/img/pic-1.webp" type="image/webp">
+                        <img src="build/img/pic-1.png" class="img-fluid" alt="picture user">
+                    </picture>
+                    <div class="review__user-info">
+                        <h3 class="fs-5 fw-bold text-primary">Enrique Ortiz</h3>
+                        <span class="fs-6 text-tertiary">Happy customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+
+            <div class="col-md-6 col-lg-4 review__tarjeta">
+                <div class="review__stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium reiciendis, praesentium quasi velit, in earum sequi iste illo dolorem ipsam ratione cum nisi eaque cumque pariatur aliquam? At, quo doloremque.</p>
+                <div class="review__user">
+                    <picture>
+                        <source srcset=	"build/img/pic-2.avif" type="image/avif">
+                        <source srcset=	"build/img/pic-2.webp" type="image/webp">
+                        <img src="build/img/pic-2.png" class="img-fluid" alt="picture user">
+                    </picture>
+
+                    <div class="review__user-info">
+                        <h3 class="fs-5 fw-bold text-primary">Jade Moore</h3>
+                        <span class="fs-6 text-tertiary">Happy customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+
+            <div class="col-md-6 col-lg-4 review__tarjeta">
+                <div class="review__stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium reiciendis, praesentium quasi velit, in earum sequi iste illo dolorem ipsam ratione cum nisi eaque cumque pariatur aliquam? At, quo doloremque.</p>
+                <div class="review__user">
+                    <picture>
+                        <source srcset=	"build/img/pic-3.avif" type="image/avif">
+                        <source srcset=	"build/img/pic-3.webp" type="image/webp">
+                        <img src="build/img/pic-3.png" class="img-fluid" alt="picture user">
+                    </picture>
+                    
+                    <div class="review__user-info">
+                        <h3 class="fs-5 fw-bold text-primary">John Osborn</h3>
+                        <span class="fs-6 text-tertiary">Satisfied customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+        </div>
+    </section>
+
+    <!--* ---------------review end -------------------->
+
+
+
+    <!--? ---------------contact -------------------->
+
+    <section class="contact" id="contact">
+
+        <h2 class="bg-heading py-3 fs-2 fw-bold text-center"><span class="text-pink">Contact</span> Us</h2>
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-6 order-1 order-lg-0">
+                <form action="" class="contact__form">
+                    <input type="text" class="contact__form--data" placeholder="Your name:">
+                    <input type="email" class="contact__form--data" placeholder="Your email:">
+                    <input type="number" class="contact__form--data" placeholder="Your number:">
+                    <textarea name="" class="contact__form--data" placeholder="Message:" cols="15" rows="10"></textarea>
+                    <input type="submit" value="Send message" class="btn btn-primary">
+                </form>
+            </div>
+
+            <div class="col-lg-6 contact__image order-0 order-lg-1">
+                <img src="build/img/contact-img.svg" alt="contact image">
+            </div>
+        </div>
+    </section>
+
+    <!--* ---------------contact end -------------------->
+
+
+
+    <!--? ---------------footer -------------------->
+
+    <footer class="footer py-5">
+
+        <div class="row mb-5">
+
+            <div class="footer__widget col-md-6 col-lg-3 d-flex flex-column gap-4 text-center text-md-start">
+
+                <h3 class="fs-3 fw-bold text-primary">Quick Links</h3>
+                <a class="text-tertiary" href="#home">Home</a>
+                <a class="text-tertiary" href="#about">About</a>
+                <a class="text-tertiary" href="#products">Products</a>
+                <a class="text-tertiary" href="#review">Review</a>
+                <a class="text-tertiary" href="#contact">Contact</a>
+            </div>
+
+            <div class="footer__widget col-md-6 col-lg-3 d-flex flex-column gap-4 text-center text-md-start">
+
+                <h3 class="fs-3 fw-bold text-primary pt-3 pt-md-0">Extra Links</h3>
+                <a class="text-tertiary" href="#">My Account</a>
+                <a class="text-tertiary" href="#">My Order</a>
+                <a class="text-tertiary" href="#">My Favorite</a>
+            </div>
+
+            <div class="footer__widget col-md-6 col-lg-3 d-flex flex-column gap-4 text-center text-md-start">
+
+                <h3 class="fs-3 fw-bold text-primary pt-3 pt-md-0">Locations</h3>
+                <a class="text-tertiary" href="#">Mexico</a>
+                <a class="text-tertiary" href="#">USA</a>
+                <a class="text-tertiary" href="#">Canada</a>
+                <a class="text-tertiary" href="#">Spain</a>
+                <a class="text-tertiary" href="#">UK</a>
+            </div>
+
+            <div class="footer__widget col-md-6 col-lg-3 d-flex flex-column gap-4 text-center text-md-start">
+
+                <h3 class="fs-3 fw-bold text-primary pt-3 pt-md-0">Contact Info</h3>
+                <a class="text-tertiary" href="#">(+52) 311-646-02-57</a>
+                <a class="text-tertiary" href="#">developer4fun@gmail.com</a>
+                <a class="text-tertiary" href="#">GDL, Jalisco, Mexico</a>
+                <a class="text-tertiary" href="#">
+                <div class="footer__widget--contact-me">
+                    <a href="https://www.linkedin.com/in/enriqueortizlo/">
+                        <p class="p-0 me-5">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                        </p>
+                    </a>
+                    <a href="https://github.com/EnriqueOrtiz95">
+                        <p class="p-0 me-5">
+                        <ion-icon name="logo-github"></ion-icon>
+                        </p>
+                    </a>
+                </div>
+                    <!-- <img src="build/img/payment.png" alt="image payment" class="img-fluid"> -->
+                </a>
+            </div>
+
+        </div>
+        <p class="footer__copyright">Created by <span class="text-pink"> Enrique Ortiz </span>&copy; | All rights reserved</p>
+    </footer>
+
+
+    <!--* ---------------footer end -------------------->
+
+
+    <!--? ---------------scripts -------------------->
+
+    <script src="js/app.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+</body>
+</html>
