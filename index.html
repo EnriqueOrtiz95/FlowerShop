@@ -26,7 +26,24 @@
         </nav>
         <div class="header__icons">
             <a href="#" class="fs-4 pe-4 fas fa-heart"></a>
-            <a href="#" class="fs-4 pe-4 fas fa-shopping-cart"></a>
+            <li class="submenu list-unstyled d-inline-block">
+                <a href="#" class="fs-4 pe-4 fas fa-shopping-cart" id="img-carrito"></a>
+                <div id="carrito">
+                    <table id="lista-carrito" class="u-full-width">
+                    <thead>
+                        <tr>
+                            <th class="px-5">Image</th>
+                            <th class="px-5">Name</th>
+                            <th class="px-5">Price</th>
+                            <th class="px-5">Quantity</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <a href="#" id="vaciar-carrito" class="btn btn-primary text-white u-full-width">Vaciar Carrito</a>
+                </div>
+            </li>
             <a href="#" class="fs-4 fas fa-user"></a>
         </div>
     </header>
@@ -41,7 +58,7 @@
             <h1 class="fw-bolder fs-1 text-primary">Fresh Flowers</h1>
             <span class="text-pink fs-2">Natural & Beautiful Flowers</span>
             <p class="text-tertiary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum libero, iste distinctio autem molestiae odio inventore dolorum omnis voluptate quisquam, quos facilis! Veniam odit, ipsa excepturi molestiae atque sint blanditiis.</p>
-            <a href="#" class="btn btn-primary">Shop Now</a>
+            <a href="#products" class="btn btn-primary">Shop Now</a>
         </div>
     </section>
 
@@ -159,7 +176,7 @@
         <div class="row g-5">
 
             <div class="col-md-6 col-lg-4 position-relative overflow-hidden">
-                <div class="card products__box">
+                <div class="card products__box overflow-hidden">
                     <span class="products__discount text-pink fs-5">-15%</span>
                     <div class="card-body text-center">
                         <div class="tarjeta">
@@ -171,12 +188,12 @@
             
                             <div class="products__icons">
                                 <a href="#" class="fas fa-heart"></a>
-                                <a href="#" class="cart-btn">Add to Cart</a>
+                                <a href="#" class="cart-btn agregar-carrito" data-id="1">Add to Cart</a>
                                 <a href="#" class="fas fa-share"></a>
                             </div>
                         </div>
                         <div class="content">
-                            <h3>Flower pot</h3>
+                            <h3 class="content-name">Flower pot</h3>
                             <p class="text-pink fs-3 fw-bold">$16.99 <del class="fs-6 text-tertiary">$19.99</del></p>
                         </div>
                     </div>
@@ -184,7 +201,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4 position-relative overflow-hidden">
-                <div class="card products__box">
+                <div class="card products__box overflow-hidden">
                     <span class="products__discount text-pink fs-5">-20%</span>
                     <div class="card-body text-center">
                         <div class="tarjeta">
@@ -195,12 +212,12 @@
                             </picture>
                             <div class="products__icons">
                                 <a href="#" class="fas fa-heart"></a>
-                                <a href="#" class="cart-btn">Add to Cart</a>
+                                <a href="#" class="cart-btn agregar-carrito" data-id="2">Add to Cart</a>
                                 <a href="#" class="fas fa-share"></a>
                             </div>
                         </div>
                         <div class="content">
-                            <h3>Flower pot</h3>
+                            <h3 class="content-name">Flower pot</h3>
                             <p class="text-pink fs-3 fw-bold">$14.99 <del class="fs-6 text-tertiary">$11.99</del></p>
                         </div>
                     </div>
@@ -208,7 +225,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4 position-relative overflow-hidden">
-                <div class="card products__box">
+                <div class="card products__box overflow-hidden">
                     <span class="products__discount text-pink fs-5">-10%</span>
                     <div class="card-body text-center">
                         <div class="tarjeta">
@@ -219,12 +236,12 @@
                             </picture>
                             <div class="products__icons">
                                 <a href="#" class="fas fa-heart"></a>
-                                <a href="#" class="cart-btn">Add to Cart</a>
+                                <a href="#" class="cart-btn agregar-carrito" data-id="3">Add to Cart</a>
                                 <a href="#" class="fas fa-share"></a>
                             </div>
                         </div>
                         <div class="content">
-                            <h3>Flower pot</h3>
+                            <h3 class="content-name">Flower pot</h3>
                             <p class="text-pink fs-3 fw-bold">$26.99 <del class="fs-6 text-tertiary">$29.99</del></p>
                         </div>
                     </div>
@@ -232,7 +249,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4 position-relative overflow-hidden">
-                <div class="card products__box">
+                <div class="card products__box overflow-hidden">
                     <span class="products__discount text-pink fs-5">-20%</span>
                     <div class="card-body text-center">
                         <div class="tarjeta">
@@ -243,12 +260,12 @@
                             </picture>
                             <div class="products__icons">
                                 <a href="#" class="fas fa-heart"></a>
-                                <a href="#" class="cart-btn">Add to Cart</a>
+                                <a href="#" class="cart-btn agregar-carrito" data-id="4">Add to Cart</a>
                                 <a href="#" class="fas fa-share"></a>
                             </div>
                         </div>
                         <div class="content">
-                            <h3>Flower pot</h3>
+                            <h3 class="content-name">Flower pot</h3>
                             <p class="text-pink fs-3 fw-bold">$12.99 <del class="fs-6 text-tertiary">$15.99</del></p>
                         </div>
                     </div>
@@ -256,7 +273,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4 position-relative overflow-hidden">
-                <div class="card products__box">
+                <div class="card products__box overflow-hidden">
                     <span class="products__discount text-pink fs-5">-20%</span>
                     <div class="card-body text-center">
                         <div class="tarjeta">
@@ -267,12 +284,12 @@
                             </picture>
                             <div class="products__icons">
                                 <a href="#" class="fas fa-heart"></a>
-                                <a href="#" class="cart-btn">Add to Cart</a>
+                                <a href="#" class="cart-btn agregar-carrito" data-id="5">Add to Cart</a>
                                 <a href="#" class="fas fa-share"></a>
                             </div>
                         </div>
                         <div class="content">
-                            <h3>Flower pot</h3>
+                            <h3 class="content-name">Flower pot</h3>
                             <p class="text-pink fs-3 fw-bold">$15.99 <del class="fs-6 text-tertiary">$19.99</del></p>
                         </div>
                     </div>
@@ -280,7 +297,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4 position-relative overflow-hidden">
-                <div class="card products__box">
+                <div class="card products__box overflow-hidden">
                     <span class="products__discount text-pink fs-5">-16%</span>
                     <div class="card-body text-center">
                         <div class="tarjeta">
@@ -291,12 +308,12 @@
                             </picture>
                             <div class="products__icons">
                                 <a href="#" class="fas fa-heart"></a>
-                                <a href="#" class="cart-btn">Add to Cart</a>
+                                <a href="#" class="cart-btn agregar-carrito" data-id="6">Add to Cart</a>
                                 <a href="#" class="fas fa-share"></a>
                             </div>
                         </div>
                         <div class="content">
-                            <h3>Flower pot</h3>
+                            <h3 class="content-name">Flower pot</h3>
                             <p class="text-pink fs-3 fw-bold">$20.99 <del class="fs-6 text-tertiary">$24.99</del></p>
                         </div>
                     </div>
@@ -304,7 +321,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4 position-relative overflow-hidden">
-                <div class="card products__box">
+                <div class="card products__box overflow-hidden">
                     <span class="products__discount text-pink fs-5">-20%</span>
                     <div class="card-body text-center">
                         <div class="tarjeta">
@@ -315,12 +332,12 @@
                             </picture>
                             <div class="products__icons">
                                 <a href="#" class="fas fa-heart"></a>
-                                <a href="#" class="cart-btn">Add to Cart</a>
+                                <a href="#" class="cart-btn agregar-carrito" data-id="7">Add to Cart</a>
                                 <a href="#" class="fas fa-share"></a>
                             </div>
                         </div>
                         <div class="content">
-                            <h3>Flower pot</h3>
+                            <h3 class="content-name">Flower pot</h3>
                             <p class="text-pink fs-3 fw-bold">$27.99 <del class="fs-6 text-tertiary">$34.99</del></p>
                         </div>
                     </div>
@@ -328,7 +345,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4 position-relative overflow-hidden">
-                <div class="card products__box">
+                <div class="card products__box overflow-hidden">
                     <span class="products__discount text-pink fs-5">-10%</span>
                     <div class="card-body text-center">
                         <div class="tarjeta">
@@ -339,12 +356,12 @@
                             </picture>
                             <div class="products__icons">
                                 <a href="#" class="fas fa-heart"></a>
-                                <a href="#" class="cart-btn">Add to Cart</a>
+                                <a href="#" class="cart-btn agregar-carrito" data-id="8">Add to Cart</a>
                                 <a href="#" class="fas fa-share"></a>
                             </div>
                         </div>
                         <div class="content">
-                            <h3>Flower pot</h3>
+                            <h3 class="content-name">Flower pot</h3>
                             <p class="text-pink fs-3 fw-bold">$26.99 <del class="fs-6 text-tertiary">$29.99</del></p>
                         </div>
                     </div>
@@ -352,7 +369,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4 position-relative overflow-hidden">
-                <div class="card products__box">
+                <div class="card products__box overflow-hidden">
                     <span class="products__discount text-pink fs-5">-20%</span>
                     <div class="card-body text-center">
                         <div class="tarjeta">
@@ -363,12 +380,12 @@
                             </picture>
                             <div class="products__icons">
                                 <a href="#" class="fas fa-heart"></a>
-                                <a href="#" class="cart-btn">Add to Cart</a>
+                                <a href="#" class="cart-btn agregar-carrito" data-id="9">Add to Cart</a>
                                 <a href="#" class="fas fa-share"></a>
                             </div>
                         </div>
                         <div class="content">
-                            <h3>Flower pot</h3>
+                            <h3 class="content-name">Flower pot</h3>
                             <p class="text-pink fs-3 fw-bold">$23.99 <del class="fs-6 text-tertiary">$29.99</del></p>
                         </div>
                     </div>
@@ -388,7 +405,7 @@
 
         <h2 class="bg-heading py-3 fs-2 fw-bold text-center text-pink"><span class="text-black">Customers</span> Review</h2>
 
-        <div class="row g-5 mt-3">
+        <div class="row mt-3 ">
             <div class="col-md-6 col-lg-4 review__tarjeta">
                 <div class="review__stars">
                     <i class="fas fa-star"></i>
